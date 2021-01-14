@@ -1,0 +1,22 @@
+.colon {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  color:red;
+}
+
+
+
+.flex-container:after {
+ 
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  word-spacing: 10px;
+  margin-left: 500px;
+  display: inline-block;
+}
+.pair{
+    margin-top: 200px;
+}
