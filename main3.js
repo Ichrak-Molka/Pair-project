@@ -39,41 +39,49 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 
-});
 
+
+
+//function searchCenter
 var center= [{
-  Name:"Tunis"
-  E-mail:"tunis@gmail.com"
-  Adress:"Beb Sadoun"
-  Phone Number:71758321
+  Name:"Tunis",
+  Email:"tunis@gmail.com",
+  Adress:"Beb Sadoun",
+  PhoneNumber:71758321
 },
 
 {
- Name:"Beja"
-  E-mail:"beja@gmail.com",
-  Adress:"beja center"
-  Phone Number:74758321 
+ Name:"Beja",
+  Email:"beja@gmail.com",
+  Adress:"beja center",
+  PhoneNumber:74758321 
 },
 {
-Name:"Sousse"
-  E-mail:"sousse@gmail.com",
-  Adress:"sahloule "
-  Phone Number:73758321 
+Name:"Sousse",
+  Email:"sousse@gmail.com",
+  Adress:"sahloule ",
+  PhoneNumber:73758321 
 },
 {
- Name:"Monastir"
-  E-mail:"monastir@gmail.com",
-  Adress:"Monastir center "
-  Phone Number:73587491 
+ Name:"Monastir",
+  Email:"monastir@gmail.com",
+  Adress:"Monastir center ",
+  PhoneNumber:73587491 
 }
 ];
 
 
 //function search center
-function searchCenter(){
+$("#place1").on('click',function(a){
+  a.preventDefault()
  $('#found').empty()
  var name = $('#search').val()
  for(var i = 0 ; i<center.length; i++){ 
-  if(center[i].name.toUpperCase()===name.toUpperCase()){
-    $("#found").append("<div class='category1'>" +center[i].Name+ " class='second'>" +center[i].E-mail"</div>");
+  if(center[i].Name.toUpperCase()===name.toUpperCase()){
+    $("#found").append("<div class='category1'>" +"Name:  "+center[i].Name+ " </br>" +"Email:  " +center[i].Email+"</div>");
+
 }
+}
+}
+)
+});
