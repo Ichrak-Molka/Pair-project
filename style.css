@@ -1,78 +1,78 @@
 body{
-    background-image: url("https://i.imgur.com/u7Oox4D.png");
+  background-image: url("https://i.imgur.com/u7Oox4D.png");
+}
+
+
+header {
+margin-left: -100px;
+width: 100%;
+height: 80px;
+padding: 0 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: red;
+z-index: 1000;
+}
+header .logo
+{
+color: #fff;
+font-size: 30px;
+text-decoration: none;
+letter-spacing: 2px;
+font-weight: 700;
+}
+
+header ul
+{
+position: relative;
+display: flex;
+color : white;
+}
+
+header ul li
+{
+position: relative;
+list-style: none;
+}
+
+header ul li a
+{
+
+padding: 5px 10px;
+color: #fff;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+}
+header ul li a.active,
+header ul li a:hover
+{
+background: red
+}
+
+.toggle{
+display: none;
+
 }
 
 
 
-.colon {
-  float: left;
-  width: 25%;
-  padding: 10px;
-  height: 300px;
-  color:red;
-  font-size: 25px;
- 
-}
 
-.flex-container {
- 
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-  word-spacing: 2px;
-  margin-left: 20px;
- 
-  display: flex;
-  flex-wrap: nowrap;
 
-}
-.pair{
-    margin-top: 200px;
 
-}
-#list{
-  margin-left: 300px;
-  margin-top: 250px;
-}
-.lab{
-  width:500px;
-  height: 20px;
-  margin-right: 10px;
 
-}
-.age1{
-  margin-right: 70px;
-}
-.e{
-   margin-right: 55px;
-}
-.full{
-  margin-right: 30px
-}
-.w{
-  height: 20px;
+video{
+  margin-left: 50%;
   width: 500px;
-  margin-right: 10px;
+  transform: translateX(-50%);
+  
 }
 
-.com{
-  margin-right: 50px;
-}
-.type{
-  margin-right: 5px;
-}
-.typeof{
-  width: 510px;
-  height: 25px;
-}
 
-.you{
-  margin-left: 70px;
-  height: 21px;
-  width: 502px;
-}
-#btn{
-  margin-right: 200px;
-  margin-left: 300px;
-  color: red;
-}
+
+
+
+
+  
+ 
