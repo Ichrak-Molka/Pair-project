@@ -10,7 +10,14 @@ h1{
   font-size: 25px;
  
 }
-
+#place{
+  width: 250px;
+  height: 30px;
+  float: right;
+}
+#place1{
+  float: right;
+}
 .flex-container {
  
   width: 50%;
