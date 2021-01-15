@@ -1,12 +1,12 @@
-alert("yara")
+alert(" Share A Little, Care A Little 🌡️💉💊 We hope u gonna like it! 😄😆😉")
 
 function check(){
-    var ac=document.getElementById("un").value;
+    var ac=document.getElementById("username").value;
 
-    var pass=document.getElementById("psw").value
+    var pass=document.getElementById("password").value
     if(ac==="blood" && pass==="donation")
     {
-        alert("welcom...")
+        alert("welcome...")
     }
  
     else
