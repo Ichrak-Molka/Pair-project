@@ -78,10 +78,24 @@ $("#place1").on('click',function(a){
  var name = $('#search').val()
  for(var i = 0 ; i<center.length; i++){ 
   if(center[i].Name.toUpperCase()===name.toUpperCase()){
-    $("#found").append("<div class='category1'>" +"Name:  "+center[i].Name+ " </br>" +"Email:  " +center[i].Email+"</div>");
+    $("#found").append("<div class='category1'> <p> </br>"  +"Name:  "+center[i].Name+ " </br> </br>" +"Email:  " +center[i].Email +"</br> </br>"+"PhoneNumber:  "+center[i].PhoneNumber+"</br> </br>"+"Adress:  "+center[i].Adress+"</p></div>");
 
 }
 }
 }
 )
 });
+
+
+// list of center
+$(document).ready(function(){
+$("#place1").on('click',function(){
+  $('.pair').hide();
+    $('#check').hide();
+    $('#btn').hide();
+    $('#list').hide();
+  $('.category1').show();
+    
+
+})
+})
