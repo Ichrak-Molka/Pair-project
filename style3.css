@@ -134,6 +134,11 @@ margin-left: 1050px;
 .btn3:hover{
   color: red;
 } 
+.category1{
+  font-size: 30px;
+  text-align: center;
+}
+
 Input:Focus{
 border-radius:50px;
 background-color: #ccc;
