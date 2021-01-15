@@ -1,9 +1,7 @@
-// function myFunction() {
-  // alert("This book is not found!");
-// }
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("You can't donate");
 
-//$('#focus').click(function(){
-//	if(age<18){
-//		alert("invalid");
-//}
+  });
+});
 
