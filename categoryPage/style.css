@@ -66,4 +66,12 @@ body{
     transform: translateX(-50%);
     
   }
+
+  button{
+    margin-left: 45%;
+    
+  }
+  #inc{
+    margin-left: 30%;
+  }
   
