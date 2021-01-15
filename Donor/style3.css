@@ -110,10 +110,11 @@ a:hover{
 
 }
 .card{
-  margin-right: 1050px;
+  margin-right: 350px;
   height: 50px;
-  width: 100%;
-  margin-top: 150px;
+  width: 100%
+
+
 }
 #check{
   margin-left: 300px;
@@ -123,7 +124,6 @@ a:hover{
 }
 .want{
   margin-right: 200px;
-
 
 }
 
