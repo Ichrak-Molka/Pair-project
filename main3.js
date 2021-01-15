@@ -1,28 +1,6 @@
-// function myFunction() {
-  // alert("This book is not found!");
-// }
 
-// $('#focus').click(function(){
-// 	if(age<18){
-// 		alert("invalid");
-// }
 
 $(document).ready(function(){
-  $("form").submit(function(){
-    alert("You can't donate");
-
-  });
-});
-
-
-// $("#check").on('click',function(){
-//     $("#card").show();
-//     $("#list").hide();
-//     $("#btn").hide();
-
-  	 
-//   });
-
 $(".want").on('click',function(){
 	$('.card').show();
     $('.pair').hide();
@@ -34,22 +12,26 @@ $(".want").on('click',function(){
 
 
 
-alert(" Donate Blood, Save lives ")
+//input age
 
-function check(){
-    var ac=document.getElementsByClassName("you").value;
-
+function age(){
     
-    if(ac==="18" && pass==="25")
+}
+  $("#btn").on("click",function(a){
+    a.preventDefault()
+    var check1=$(".age2").val();
+    console.log(check1)
+    
+    if(check1=="16" )
     {
-        alert("welcome...")
+        alert(" Sorry, you can't donate")
     }
  
     else
     {
-        alert("incorrect Login info.")
+        alert("You can donate")
     }
-}
+  });
 
 //Appointment
 function myFunction() {
@@ -57,3 +39,4 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 
+});
