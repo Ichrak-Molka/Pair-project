@@ -1,4 +1,4 @@
-alert(" Share A Little, Care A Little 🌡️💉💊 We hope u gonna like it! 😄😆😉")
+alert(" save a life 💉 give blood ❤❤")
 
 function check(){
     var ac=document.getElementById("username").value;

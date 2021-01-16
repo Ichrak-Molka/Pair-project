@@ -67,10 +67,9 @@ body{
     
   }
 
-  button{
-    margin-left: 45%;
-    
-  }
+ button{
+  background-color: darkred
+ }
   #inc{
     margin-left: 30%;
   }
