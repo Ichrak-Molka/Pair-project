@@ -4,9 +4,11 @@ $(document).ready(function(){
 $(".want").on('click',function(){
 	$('.card').show();
     $('.pair').hide();
-    $('#check').hide();
+    $('#check').show();
     $('#btn').hide();
     $('#list').hide();
+    $('.container').hide();
+
 
 })
 
@@ -90,12 +92,10 @@ $("#place1").on('click',function(a){
 // list of center
 $(document).ready(function(){
 $("#place1").on('click',function(){
-  $('.pair').hide();
+  $('.category1').show();
+   $('.pair').hide();
     $('#check').hide();
     $('#btn').hide();
     $('#list').hide();
-  $('.category1').show();
-    
-
 })
 })
