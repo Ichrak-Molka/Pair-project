@@ -94,7 +94,7 @@
      -ms-user-select: none; 
       user-select: none;
       
-     background-image:url("https://i.imgur.com/2WMIkcL.jpg");
+     background-color:darkred;
     
       background-attachment: fixed;
       background-position: bottom left ;
@@ -108,5 +108,9 @@
               text-align: -webkit-center;
               
           }
+
+    #home{
+        color: white;
+    }
           
          
